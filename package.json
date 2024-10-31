@@ -1,0 +1,21 @@
+{
+  "name": "viz",
+  "displayName": "viz",
+  "description": "Color theme based on the theme used in the code snippets on viz.rs",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "viz",
+        "uiTheme": "vs-dark",
+        "path": "./themes/viz-color-theme.json"
+      }
+    ]
+  }
+}
